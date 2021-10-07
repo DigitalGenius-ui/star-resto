@@ -1,0 +1,9 @@
+.slide img {
+  width: 100%;
+  height: 600px;
+  opacity: 0.3;
+}
+
+.slide {
+  background-color: black;
+}
