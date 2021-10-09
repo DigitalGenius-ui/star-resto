@@ -6,4 +6,69 @@
 
 .slide {
   background-color: black;
+  position: relative;
+}
+
+.slide h1 {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  max-width: 40rem;
+}
+
+@media (max-width: 750px) {
+  .slide h1 {
+    font-size: 1.6rem;
+    width: 70%;
+  }
+}
+
+.container {
+  position: relative;
+}
+
+.arrows span {
+  color: white;
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.164);
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrows .left {
+  left: 20px;
+  font-size: 1.3rem;
+}
+
+.arrows .right {
+  right: 20px;
+  font-size: 1.3rem;
+}
+
+li.slick-active button:before {
+  color: rgba(255, 255, 255, 0.883);
+}
+ul li button::before {
+  font-size: 10px;
+  color: white;
+}
+button {
+  z-index: 1;
+}
+
+@media (max-width: 400px) {
+  .slide h1 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    width: 60%;
+    line-height: 2rem;
+  }
 }

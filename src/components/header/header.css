@@ -12,6 +12,12 @@
   z-index: 100;
 }
 
+@media (max-width: 1100px) {
+  .navigation {
+    background-color: black;
+  }
+}
+
 .active {
   background-color: black;
 }
@@ -31,4 +37,171 @@
   margin-left: 1.5rem;
   font-size: 1.2rem;
   cursor: pointer;
+}
+
+.shop {
+  font-size: 1.6rem;
+  color: white;
+}
+
+.shoping {
+  position: relative;
+  list-style: none;
+}
+
+.shoping p {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  background-color: rgb(246, 12, 24);
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+@media (max-width: 1090px) {
+  .navigation {
+    background-color: black;
+    overflow: hidden;
+  }
+
+  .navigation.open {
+    height: 330px;
+  }
+
+  .list {
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 8rem;
+    left: 0.5rem;
+  }
+
+  .logo img {
+    position: absolute;
+    top: 0;
+  }
+
+  .box {
+    position: absolute;
+    top: 2.4rem;
+    right: 3rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .list li {
+    padding: 0.1rem 0;
+  }
+
+  .bars {
+    width: 40px;
+    height: 40px;
+    margin-left: 1.5rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bars .line {
+    position: absolute;
+    background-color: white;
+    height: 2px;
+    width: 35px;
+    transition: all 400ms ease-in;
+  }
+
+  .line::after,
+  .line::before {
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 2px;
+    width: 35px;
+    transition: all 400ms ease-in;
+  }
+
+  .line::after {
+    transform: translateY(10px);
+  }
+
+  .line::before {
+    transform: translateY(-10px);
+  }
+
+  .bars.active .line {
+    background-color: transparent;
+  }
+
+  .bars.active .line::before {
+    transform: rotate(-45deg);
+  }
+
+  .bars.active .line::after {
+    transform: rotate(45deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .logo img {
+    width: 16rem;
+    top: 1rem;
+  }
+
+  .shop {
+    font-size: 1.3rem;
+  }
+
+  .shoping p {
+    width: 1.4rem;
+    height: 1.4rem;
+    color: white;
+  }
+
+  .bars .line {
+    width: 30px;
+  }
+
+  .line::after,
+  .line::before {
+    width: 30px;
+  }
+
+  .line::after {
+    transform: translateY(9px);
+  }
+
+  .line::before {
+    transform: translateY(-9px);
+  }
+}
+
+@media (max-width: 480px) {
+  .logo img {
+    width: 14rem;
+    top: 1.4rem;
+    left: 1rem;
+  }
+
+  .box {
+    top: 2.3rem;
+    right: 2rem;
+  }
+
+  .shop {
+    margin-top: 0.1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .logo img {
+    width: 12rem;
+    top: 1.5rem;
+    left: 0.5rem;
+  }
 }
