@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/star-resto/static/css/main.abb2521a.chunk.css",
+    "main.js": "/star-resto/static/js/main.837a9bbf.chunk.js",
+    "main.js.map": "/star-resto/static/js/main.837a9bbf.chunk.js.map",
+    "runtime-main.js": "/star-resto/static/js/runtime-main.9d610578.js",
+    "runtime-main.js.map": "/star-resto/static/js/runtime-main.9d610578.js.map",
+    "static/js/2.a96cb219.chunk.js": "/star-resto/static/js/2.a96cb219.chunk.js",
+    "static/js/2.a96cb219.chunk.js.map": "/star-resto/static/js/2.a96cb219.chunk.js.map",
+    "index.html": "/star-resto/index.html",
+    "static/css/main.abb2521a.chunk.css.map": "/star-resto/static/css/main.abb2521a.chunk.css.map",
+    "static/js/2.a96cb219.chunk.js.LICENSE.txt": "/star-resto/static/js/2.a96cb219.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9d610578.js",
+    "static/js/2.a96cb219.chunk.js",
+    "static/css/main.abb2521a.chunk.css",
+    "static/js/main.837a9bbf.chunk.js"
+  ]
+}
