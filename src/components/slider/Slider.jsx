@@ -17,7 +17,7 @@ function SliderEffect() {
         <div className="container">
         <Slider  ref={slider} {...settings}>
             <div className="slide">
-                <img src="/images/slide1.jpg" alt="" />
+                <img src="https://www3.hilton.com/resources/media/hi/BDOHIHI/en_US/img/shared/full_page_image_gallery/main/HL_purnabreakfast_7_675x359_FitToBoxSmallDimension_Center.jpg" alt="" />
                 <h1>Serving Best Restaurant, Catering & Banquet Services in Makassar</h1>
             </div>
             <div className="slide">
