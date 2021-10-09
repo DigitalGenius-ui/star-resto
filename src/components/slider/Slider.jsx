@@ -17,7 +17,7 @@ function SliderEffect() {
         <div className="container">
         <Slider  ref={slider} {...settings}>
             <div className="slide">
-                <img src="homepagePath/images/slide1.jpg" alt="" />
+                <img src="https://github.com/DigitalGenius-ui/star-resto/blob/main/public/images/slide3.jpg?raw=true" alt="" />
                 <h1>Serving Best Restaurant, Catering & Banquet Services in Makassar</h1>
             </div>
             <div className="slide">
